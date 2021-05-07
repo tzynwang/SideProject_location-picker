@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <link rel="icon" type="image/png" href="/img/favicon.ico"/>
+  <link rel="stylesheet" href="style.css">
+  <title>群聚地點選擇器</title>
+</head>
+
+<body>
+  <main>
+    <h1>群聚地點選擇器</h1>
+    <div class="main-visual">
+      <img src="/img/undraw_join_of2w.png" alt="pick a place to get together">
+    </div>
+    <section class="input">
+      <label for="location">輸入地點：</label>
+      <input type="text" id="location" name="location">
+      <button class="add" id="addLocationButton">新增待選地點</button>
+      <button class="decide" id="decideLocationButton">輸入完畢，開始挑選</button>
+    </section>
+
+    <section class="output">
+      <p id="announceLocation"></p>
+      <ul id="locationPendingList">
+        <li>我家巷口 <i class="remove bi bi-trash"></i></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright 2021 Charlie (Tzu Yin) · <a href="https://github.com/tzynwang/location-picker" target="_blank">GitHub <i class="bi bi-box-arrow-up-right"></i></a></p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
