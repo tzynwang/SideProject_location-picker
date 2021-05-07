@@ -19,13 +19,14 @@
     </div>
     <section class="input">
       <label for="location">輸入地點：</label>
-      <input type="text" id="location" name="location">
+      <input type="text" id="location" name="location" autofocus>
       <button class="add" id="addLocationButton">新增待選地點</button>
       <button class="decide" id="decideLocationButton">輸入完畢，開始挑選</button>
     </section>
 
     <section class="output">
       <p id="announceLocation"></p>
+      <span>待選地點清單：</span>
       <ul id="locationPendingList">
         <li>我家巷口 <i class="remove bi bi-trash"></i></li>
       </ul>
