@@ -72,6 +72,13 @@ section.output p {
   font-size: 28px;
   text-align: center;
   margin: 1rem 0;
+  color: #d9376e;
+}
+
+section.output span {
+  display: inline-block;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 section.output ul li {
