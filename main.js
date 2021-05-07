@@ -22,7 +22,7 @@ const view = {
   announcePickedLocation (locationCollection) {
     const index = Math.floor(Math.random() * locationCollection.length)
     const pickedLocation = locationCollection[index].innerText.trim()
-    elementObjects.announceLocation.innerHTML = pickedLocation
+    elementObjects.announceLocation.innerHTML = `決定去 → ${pickedLocation} ←`
   }
 }
 
